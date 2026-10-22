@@ -113,7 +113,7 @@
       let queue = store.get(QUEUE_KEY, []);
       while (queue.length) {
         const item = queue[0];
-        const time = new Date(item.at).toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+        const time = new Date(item.at).toLocaleTimeString("en-CA", { hour: "numeric", minute: "2-digit", timeZone: "America/Toronto" });
         const res = await fetch(`https://ntfy.sh/${encodeURIComponent(hunt.ntfyTopic)}`, {
           method: "POST",
           body: `${item.message} (${time})`,
