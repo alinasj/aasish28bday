@@ -38,8 +38,8 @@
   --accent-ink: #f7ecd2;
   --highlight: #2f5d50;
   --line: #cdb383;
-  --head-font: "IM Fell English", Georgia, serif;
-  --body-font: "Lora", Georgia, serif;
+  --head-font: Calibri, Carlito, "Segoe UI", sans-serif;
+  --body-font: Calibri, Carlito, "Segoe UI", sans-serif;
   --radius: 8px;
 }
 [data-theme="garden"] {
