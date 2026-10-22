@@ -315,11 +315,9 @@
   }
 
   function clueCard(stop, n) {
-    const from = stop.from ? `<p class="from">Read by ${esc(stop.from)}</p>` : "";
     const hasVideo = !!videoSrc(stop.video);
     return `<section class="card scroll">
         <p class="eyebrow">Clue ${n}</p>
-        ${from}
         ${videoBlock(stop)}
         ${stop.text && !hasVideo ? `<p class="note pre">${esc(stop.text)}</p>` : ""}
         <div class="clue pre">${esc(stop.clue)}</div>

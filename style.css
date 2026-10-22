@@ -148,7 +148,6 @@ a { color: var(--accent); }
 .hero .btn { margin-top: 14px; }
 .quip { font-family: var(--head-font); font-size: 1.35rem; line-height: 1.3; margin: 0 0 14px; }
 .dest { font-size: 1.9rem; margin: 2px 0 4px; color: var(--accent); }
-.from { font-family: var(--head-font); font-style: italic; font-size: 1.15rem; margin: -2px 0 8px; }
 .note { border-left: 3px solid var(--highlight); padding-left: 12px; }
 .small-clue { font-size: 1.05rem; margin-top: 10px; }
 .how ol { margin: 0; padding-left: 1.3em; }
