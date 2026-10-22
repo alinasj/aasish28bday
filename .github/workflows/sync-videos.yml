@@ -1,4 +1,4 @@
-name: Sync videos from YouTube playlist
+name: Sync sheet and videos
 
 on:
   schedule:
@@ -25,7 +25,15 @@ jobs:
       - name: Install Pillow (reads thumbnails to tell vertical from horizontal videos)
         run: pip install --quiet pillow
 
+      # Each sync runs even if the other fails, so a YouTube hiccup can't block sheet edits.
+      - name: Copy stop details from the Google Sheet into hunt.json
+        id: sheet
+        continue-on-error: true
+        run: python3 tools/sync_sheet.py
+
       - name: Copy playlist videos into hunt.json
+        id: videos
+        continue-on-error: true
         run: python3 tools/sync_playlist.py "$PLAYLIST"
 
       - name: Commit and publish if anything changed
@@ -33,12 +41,18 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           if git diff --quiet hunt.json; then
-            echo "No new videos."
-            exit 0
+            echo "Nothing new."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -am "Sync from sheet and playlist"
+            git push
+            # Pushes made by this workflow's token don't always start a Pages build, so ask for one.
+            gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" || true
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Sync videos from YouTube playlist"
-          git push
-          # Pushes made by this workflow's token don't always start a Pages build, so ask for one.
-          gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" || true
+
+      - name: Fail the run if a sync failed (GitHub emails the repo owner)
+        if: steps.sheet.outcome == 'failure' || steps.videos.outcome == 'failure'
+        run: |
+          echo "sheet: ${{ steps.sheet.outcome }}, videos: ${{ steps.videos.outcome }}"
+          exit 1

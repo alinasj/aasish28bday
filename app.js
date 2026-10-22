@@ -401,7 +401,9 @@
     const stop = currentStop();
     const n = state.found + 1;
     const hasGps = stop.lat != null;
-    const dest = stop.address || (hasGps ? `${stop.lat},${stop.lng}` : stop.name);
+    // A street address gives friendlier directions; for parks and trails the pin is more exact.
+    const streetAddress = /^\s*(unit\s*\w+,?\s*)?\d+[a-z]?\s+\w/i.test(stop.address || "");
+    const dest = streetAddress || !hasGps ? stop.address || stop.name : `${stop.lat},${stop.lng}`;
     const maps = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(dest)}`;
     const guessed = state.solved === "guessed";
     app.innerHTML = `
