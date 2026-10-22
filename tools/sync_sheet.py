@@ -29,6 +29,7 @@ import math
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -50,7 +51,10 @@ def fetch(url):
 
 
 def sheet_rows(gid):
-    text, _ = fetch(f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={gid}")
+    try:
+        text, _ = fetch(f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={gid}")
+    except urllib.error.HTTPError:
+        text = "<"
     if text.lstrip().startswith("<"):
         sys.exit("Couldn't read the sheet. Is it shared as 'Anyone with the link can view'?")
     return list(csv.reader(io.StringIO(text)))
