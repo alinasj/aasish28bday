@@ -1,0 +1,322 @@
+{
+  "player": "Aasish",
+  "title": "Aasish's Birthday Hunt",
+  "theme": "map",
+  "ntfyTopic": "aasish28-39e586fe11359a6f",
+  "skipCode": "aileen2610",
+  "tries": 5,
+  "giveUpMessages": [
+    "Let's not make your brain work too hard on your birthday. Here's the answer.",
+    "Birthday mercy rule activated. Here's the answer.",
+    "Five tries, zero points. Lucky for you, it's your birthday.",
+    "Aileen saw that coming. Here you go.",
+    "Okay, birthday boy, we'll let this one slide."
+  ],
+  "wrongMessages": [
+    "Nope!",
+    "Not quite.",
+    "Bold guess. Wrong, but bold.",
+    "Cold. Very cold.",
+    "Think harder, birthday boy."
+  ],
+  "welcome": {
+    "heading": "Happy birthday, Aasish",
+    "text": "Today you're going on an adventure through places that tell pieces of your story.\n\nAt every stop, someone who loves you has recorded your next clue. Solve it, find your way there, and the next one unlocks.",
+    "video": null
+  },
+  "finale": {
+    "heading": "You made it home",
+    "text": "Happy birthday, Vava. ❤️",
+    "from": "Aileen",
+    "video": null
+  },
+  "stops": [
+    {
+      "name": "Gage Park",
+      "lat": 43.24077,
+      "lng": -79.82903,
+      "radius": 250,
+      "answers": [
+        "gage park",
+        "gage"
+      ],
+      "from": "Papa",
+      "video": "https://youtu.be/7Fx9b4-Cue4",
+      "text": "",
+      "clue": "Your journey begins somewhere surrounded by green,\nA place where Hamilton's beauty can be seen.\nBefore you chase the city far and wide,\nFind the park where the next clue likes to hide.",
+      "address": "Gage Park, 1000 Main St E, Hamilton, ON",
+      "shape": "portrait"
+    },
+    {
+      "name": "Tim Hortons Field",
+      "lat": 43.25111,
+      "lng": -79.83092,
+      "radius": 250,
+      "answers": [
+        "tim hortons field",
+        "tim hortons",
+        "tim hortons stadium"
+      ],
+      "from": "Mummy",
+      "video": "https://youtu.be/3kCt-XhANY4",
+      "text": "",
+      "clue": "You've found the first piece, but don't celebrate yet.\nYour next destination is where crowds don't forget.\nWhere cheers get loud and the home team plays,\nHead toward the field where Hamilton spends its days.",
+      "address": "Tim Hortons Field, 64 Melrose Ave N, Hamilton, ON",
+      "shape": "portrait"
+    },
+    {
+      "name": "Cowabunga Pizzeria",
+      "lat": null,
+      "lng": null,
+      "radius": 120,
+      "answers": [
+        "cowabunga",
+        "cowabunga pizza",
+        "cowabunga pizzeria"
+      ],
+      "from": "Unni",
+      "video": null,
+      "text": "",
+      "clue": "Enough with the sports, now it's time to eat.\nYour next destination involves something cheesy and neat.\nThink Teenage Mutant Ninja Turtles,\nThink pizza,\nAnd think about where we'd go when hunger strikes.",
+      "address": ""
+    },
+    {
+      "name": "Hamilton Mountain Lookout",
+      "lat": 43.24456,
+      "lng": -79.86125,
+      "radius": 200,
+      "answers": [
+        "sam lawrence park",
+        "mountain lookout",
+        "lookout",
+        "hamilton mountain"
+      ],
+      "from": "Alina",
+      "video": null,
+      "text": "",
+      "clue": "You've filled your stomach, now raise your eyes.\nYour next destination gives you quite the prize.\nDon't look for a building, don't look for a door.\nFind the place where Hamilton stretches below you once more.",
+      "address": "Sam Lawrence Park, 255 Concession St, Hamilton, ON"
+    },
+    {
+      "name": "Burlington Beach",
+      "lat": 43.29913,
+      "lng": -79.79536,
+      "radius": 1000,
+      "answers": [
+        "burlington beach",
+        "beach",
+        "hamilton beach"
+      ],
+      "from": "Hima",
+      "video": null,
+      "text": "",
+      "clue": "You've looked down upon the city.\nNow it's time to find the water.\nFollow the road toward a place\nWhere Hamilton meets the lake.\nBring your sunglasses. 🌊",
+      "address": ""
+    },
+    {
+      "name": "McMaster University",
+      "lat": 43.26394,
+      "lng": -79.91783,
+      "radius": 600,
+      "answers": [
+        "mcmaster",
+        "mcmaster university",
+        "mac"
+      ],
+      "from": "Gowtham",
+      "video": null,
+      "text": "",
+      "clue": "From waves to books, from sand to school,\nYour next destination played by a different rule.\nFind the place where minds get tested,\nAnd memories were made between lectures and lessons.",
+      "address": "McMaster University, 1280 Main St W, Hamilton, ON"
+    },
+    {
+      "name": "Cootes Paradise",
+      "lat": 43.27582,
+      "lng": -79.90503,
+      "radius": 900,
+      "answers": [
+        "cootes paradise",
+        "cootes"
+      ],
+      "from": "Hari",
+      "video": null,
+      "text": "",
+      "clue": "You don't need a classroom for your next adventure.\nLeave the buildings behind.\nFind the paradise that hides behind the place you just visited.",
+      "address": ""
+    },
+    {
+      "name": "Dundas Peak",
+      "lat": 43.27413,
+      "lng": -79.96899,
+      "radius": 250,
+      "answers": [
+        "dundas peak",
+        "the peak",
+        "spencer gorge"
+      ],
+      "from": "Ananth",
+      "video": null,
+      "text": "",
+      "clue": "You've wandered through paradise.\nNow it's time to climb.\nYour next destination rewards those\nWho are willing to go a little higher.\nFind the peak.",
+      "address": "Dundas Peak, Dundas, ON"
+    },
+    {
+      "name": "Tiffany Falls",
+      "lat": 43.23802,
+      "lng": -79.95821,
+      "radius": 250,
+      "answers": [
+        "tiffany falls",
+        "tiffany"
+      ],
+      "from": "Aileen",
+      "video": null,
+      "text": "",
+      "clue": "You climbed to the top.\nNow follow the sound of falling water.\nYour next destination isn't something you can buy,\nbut something you can hear before you see.",
+      "address": "Tiffany Falls Conservation Area, Ancaster, ON"
+    },
+    {
+      "name": "Jackson Square",
+      "lat": 43.25813,
+      "lng": -79.8716,
+      "radius": 150,
+      "answers": [
+        "jackson square",
+        "jackson"
+      ],
+      "from": null,
+      "video": null,
+      "text": "",
+      "clue": "Enough trees.\nEnough hiking.\nEnough pretending we're outdoorsy. 😂\nIt's time to return to the city.\nFind one of Hamilton's most recognizable downtown landmarks.",
+      "address": "Jackson Square, 2 King St W, Hamilton, ON"
+    },
+    {
+      "name": "FirstOntario Concert Hall",
+      "lat": 43.25629,
+      "lng": -79.87173,
+      "radius": 120,
+      "answers": [
+        "firstontario",
+        "first ontario",
+        "firstontario centre",
+        "firstontario concert hall",
+        "concert hall",
+        "td coliseum",
+        "coliseum"
+      ],
+      "from": "Akku chechy",
+      "video": null,
+      "text": "",
+      "clue": "From shopping to shouting.\nYour next stop is where thousands gather,\nwhere the lights go down,\nthe crowd gets loud,\nand something is always happening on the floor.",
+      "address": "FirstOntario Concert Hall, 1 Summers Ln, Hamilton, ON"
+    },
+    {
+      "name": "Tamasha",
+      "lat": 43.69676,
+      "lng": -79.39587,
+      "radius": 120,
+      "answers": [
+        "tamasha"
+      ],
+      "from": "Safi chechy",
+      "video": null,
+      "text": "",
+      "clue": "Hamilton was only the beginning.\nNow we're going somewhere with a few more skyscrapers.\nYour next clues are connected to a different chapter of your story.\nFollow the road east.\nYour first stop is somewhere you can eat.",
+      "address": "Tamasha, 1835 Yonge St, Toronto, ON"
+    },
+    {
+      "name": "Finch Station",
+      "lat": 43.78277,
+      "lng": -79.41477,
+      "radius": 150,
+      "answers": [
+        "finch station",
+        "finch"
+      ],
+      "from": "Nitu chechy",
+      "video": null,
+      "text": "",
+      "clue": "Your last stop had food, music and a little bit of flair.\nNow head somewhere where thousands of people pass through every day.\nYou don't need a car to get there.\nFind the station at the end of this clue.",
+      "address": "Finch Station, Toronto, ON"
+    },
+    {
+      "name": "Yonge & Finch",
+      "lat": 43.7804,
+      "lng": -79.4157,
+      "radius": 150,
+      "answers": [
+        "yonge and finch",
+        "yonge finch",
+        "yonge & finch"
+      ],
+      "from": "Vina",
+      "video": null,
+      "text": "",
+      "clue": "You've found the station.\nBut stations aren't usually where memories begin.\nWalk a little beyond it.\nFind the intersection that takes you closer\nto the neighbourhood that once felt like home.",
+      "address": "Yonge St & Finch Ave W, Toronto, ON"
+    },
+    {
+      "name": "Nantha's",
+      "lat": 43.75949,
+      "lng": -79.59299,
+      "radius": 150,
+      "answers": [
+        "nanthas",
+        "nantha's",
+        "nantha"
+      ],
+      "from": "Sherya",
+      "video": null,
+      "text": "",
+      "clue": "You've reached a place that once meant something.\nBut memories can make you hungry.\nYour next destination is known for something cold, sweet and tropical.\nFind the place where the mango comes to the rescue. 🥭",
+      "address": "5010 Steeles Ave W, Etobicoke, ON"
+    },
+    {
+      "name": "Wow Wings",
+      "lat": 43.83547,
+      "lng": -79.55821,
+      "radius": 150,
+      "answers": [
+        "wow wings",
+        "wow wing house",
+        "wow"
+      ],
+      "from": "Guluna",
+      "video": null,
+      "text": "",
+      "clue": "Sweet was easy.\nNow we need something with a little more kick.\nYour next destination has wings,\nbut you're not looking for the kind that can fly.",
+      "address": "WOW! Wing House, 9587 Weston Rd, Woodbridge, ON"
+    },
+    {
+      "name": "Vaughan Mills",
+      "lat": 43.82552,
+      "lng": -79.53825,
+      "radius": 400,
+      "answers": [
+        "vaughan mills",
+        "vaughan mills mall"
+      ],
+      "from": "Anusha",
+      "video": null,
+      "text": "",
+      "clue": "One final destination before we head home.\nYou won't find just one store here.\nIn fact, you'll find hundreds.\nFind the giant shopping destination in Vaughan.",
+      "address": "Vaughan Mills, 1 Bass Pro Mills Dr, Vaughan, ON"
+    },
+    {
+      "name": "Home",
+      "lat": 43.25116,
+      "lng": -79.8375,
+      "radius": 120,
+      "answers": [
+        "home",
+        "932 king st e",
+        "932 king street east"
+      ],
+      "from": "Aileen",
+      "video": null,
+      "text": "",
+      "clue": "You've chased clues through Hamilton.\nYou've revisited old places.\nYou've eaten, explored, climbed, walked and probably complained about driving. 😂\n\nBut every adventure needs somewhere to end.\nYou've spent today visiting places that tell pieces of your story.\nNow there's only one place left to find.\n\nGo back to where we started. ❤️",
+      "address": "932 King St E, Hamilton, ON"
+    }
+  ]
+}
