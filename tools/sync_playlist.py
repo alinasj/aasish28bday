@@ -97,15 +97,41 @@ def clue_number(title):
 
 
 def shape(video_id):
-    """'portrait' for vertical videos, else 'landscape' (from YouTube's oEmbed size)."""
+    """'portrait' for vertical videos, 'landscape' otherwise.
+
+    Shorts are always vertical. For other videos, look at the 16:9 thumbnail:
+    a vertical video shows up with black bars on both sides.
+    """
     if video_id in shorts:
         return "portrait"
     try:
-        url = "https://www.youtube.com/oembed?format=json&url=" + urllib.parse.quote(f"https://youtu.be/{video_id}")
-        d = json.loads(fetch(url))
-        return "portrait" if d.get("height", 0) > d.get("width", 1) else "landscape"
+        req = urllib.request.Request(f"https://www.youtube.com/shorts/{video_id}", headers=UA)
+        opener = urllib.request.build_opener(NoRedirect)
+        if opener.open(req, timeout=20).status == 200:
+            return "portrait"
     except Exception:
-        return "portrait"
+        pass  # a 303 redirect means it's a regular video
+    try:
+        from io import BytesIO
+        from PIL import Image
+        data = urllib.request.urlopen(f"https://i.ytimg.com/vi/{video_id}/mqdefault.jpg", timeout=20).read()
+        im = Image.open(BytesIO(data)).convert("L")
+        w, h = im.size
+
+        def mean(x0, x1):
+            px = [im.getpixel((x, y)) for x in range(x0, x1) for y in range(0, h, 3)]
+            return sum(px) / len(px)
+
+        edge = int(w * 0.15)
+        bars = mean(0, edge) < 20 and mean(w - edge, w) < 20 and mean(w // 2 - 20, w // 2 + 20) > 25
+        return "portrait" if bars else "landscape"
+    except Exception:
+        return "portrait"  # most of these are phone videos
+
+
+class NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *args, **kwargs):
+        return None
 
 
 def main():
@@ -142,7 +168,7 @@ def main():
             item = hunt[kind]
             label = kind.capitalize()
         url = f"https://youtu.be/{vid}"
-        if item.get("video") != url or item.get("shape") != shape(vid):
+        if item.get("video") != url or "shape" not in item:
             item["video"] = url
             item["shape"] = shape(vid)
             changed += 1

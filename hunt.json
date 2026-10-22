@@ -45,7 +45,7 @@
       "text": "",
       "clue": "Your journey begins somewhere surrounded by green,\nA place where Hamilton's beauty can be seen.\nBefore you chase the city far and wide,\nFind the park where the next clue likes to hide.",
       "address": "Gage Park, 1000 Main St E, Hamilton, ON",
-      "shape": "landscape"
+      "shape": "portrait"
     },
     {
       "name": "Tim Hortons Field",
@@ -62,7 +62,7 @@
       "text": "",
       "clue": "You've found the first piece, but don't celebrate yet.\nYour next destination is where crowds don't forget.\nWhere cheers get loud and the home team plays,\nHead toward the field where Hamilton spends its days.",
       "address": "Tim Hortons Field, 64 Melrose Ave N, Hamilton, ON",
-      "shape": "landscape"
+      "shape": "portrait"
     },
     {
       "name": "Cowabunga Pizzeria",
@@ -96,7 +96,7 @@
       "text": "",
       "clue": "You've filled your stomach, now raise your eyes.\nYour next destination gives you quite the prize.\nDon't look for a building, don't look for a door.\nFind the place where Hamilton stretches below you once more.",
       "address": "Sam Lawrence Park, 255 Concession St, Hamilton, ON",
-      "shape": "landscape"
+      "shape": "portrait"
     },
     {
       "name": "Burlington Beach",
@@ -113,7 +113,7 @@
       "text": "",
       "clue": "You've looked down upon the city.\nNow it's time to find the water.\nFollow the road toward a place\nWhere Hamilton meets the lake.\nBring your sunglasses. 🌊",
       "address": "",
-      "shape": "landscape"
+      "shape": "portrait"
     },
     {
       "name": "McMaster University",
@@ -130,7 +130,7 @@
       "text": "",
       "clue": "From waves to books, from sand to school,\nYour next destination played by a different rule.\nFind the place where minds get tested,\nAnd memories were made between lectures and lessons.",
       "address": "McMaster University, 1280 Main St W, Hamilton, ON",
-      "shape": "landscape"
+      "shape": "portrait"
     },
     {
       "name": "Cootes Paradise",
@@ -163,7 +163,7 @@
       "text": "",
       "clue": "You've wandered through paradise.\nNow it's time to climb.\nYour next destination rewards those\nWho are willing to go a little higher.\nFind the peak.",
       "address": "Dundas Peak, Dundas, ON",
-      "shape": "landscape"
+      "shape": "portrait"
     },
     {
       "name": "Tiffany Falls",
