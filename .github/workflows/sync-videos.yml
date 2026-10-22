@@ -1,0 +1,41 @@
+name: Sync videos from YouTube playlist
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: sync-videos
+  cancel-in-progress: false
+
+env:
+  PLAYLIST: PLdeufAIF-Wd4
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Copy playlist videos into hunt.json
+        run: python3 tools/sync_playlist.py "$PLAYLIST"
+
+      - name: Commit and publish if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet hunt.json; then
+            echo "No new videos."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Sync videos from YouTube playlist"
+          git push
+          # Pushes made by this workflow's token don't always start a Pages build, so ask for one.
+          gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" || true

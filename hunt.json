@@ -58,11 +58,10 @@
         "tim hortons stadium"
       ],
       "from": "Mummy",
-      "video": "https://youtu.be/3kCt-XhANY4",
+      "video": null,
       "text": "",
       "clue": "You've found the first piece, but don't celebrate yet.\nYour next destination is where crowds don't forget.\nWhere cheers get loud and the home team plays,\nHead toward the field where Hamilton spends its days.",
-      "address": "Tim Hortons Field, 64 Melrose Ave N, Hamilton, ON",
-      "shape": "portrait"
+      "address": "Tim Hortons Field, 64 Melrose Ave N, Hamilton, ON"
     },
     {
       "name": "Cowabunga Pizzeria",

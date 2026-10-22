@@ -16,6 +16,8 @@ Open http://localhost:8728/?test=1 for test mode: switch themes, jump between cl
 
 ## Update videos
 
+A GitHub Action (`.github/workflows/sync-videos.yml`) checks the playlist every 15 minutes and publishes any new "Clue N" videos. To sync right away, run it from the Actions tab, or locally:
+
 ```bash
 python3 tools/sync_playlist.py "https://youtube.com/playlist?list=PLdeufAIF-Wd4"
 git commit -am "Sync videos" && git push
