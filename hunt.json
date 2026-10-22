@@ -45,7 +45,7 @@
       "text": "",
       "clue": "Your journey begins somewhere surrounded by green,\nA place where Hamilton's beauty can be seen.\nBefore you chase the city far and wide,\nFind the park where the next clue likes to hide.",
       "address": "Gage Park, 1000 Main St E, Hamilton, ON",
-      "shape": "portrait"
+      "shape": "landscape"
     },
     {
       "name": "Tim Hortons Field",
@@ -58,10 +58,11 @@
         "tim hortons stadium"
       ],
       "from": "Mummy",
-      "video": null,
+      "video": "https://youtu.be/3kCt-XhANY4",
       "text": "",
       "clue": "You've found the first piece, but don't celebrate yet.\nYour next destination is where crowds don't forget.\nWhere cheers get loud and the home team plays,\nHead toward the field where Hamilton spends its days.",
-      "address": "Tim Hortons Field, 64 Melrose Ave N, Hamilton, ON"
+      "address": "Tim Hortons Field, 64 Melrose Ave N, Hamilton, ON",
+      "shape": "landscape"
     },
     {
       "name": "Cowabunga Pizzeria",
@@ -91,10 +92,11 @@
         "hamilton mountain"
       ],
       "from": "Alina",
-      "video": null,
+      "video": "https://youtu.be/EGIBvCvopJw",
       "text": "",
       "clue": "You've filled your stomach, now raise your eyes.\nYour next destination gives you quite the prize.\nDon't look for a building, don't look for a door.\nFind the place where Hamilton stretches below you once more.",
-      "address": "Sam Lawrence Park, 255 Concession St, Hamilton, ON"
+      "address": "Sam Lawrence Park, 255 Concession St, Hamilton, ON",
+      "shape": "landscape"
     },
     {
       "name": "Burlington Beach",
@@ -107,10 +109,11 @@
         "hamilton beach"
       ],
       "from": "Hima",
-      "video": null,
+      "video": "https://youtu.be/ZTwC-OMVVN0",
       "text": "",
       "clue": "You've looked down upon the city.\nNow it's time to find the water.\nFollow the road toward a place\nWhere Hamilton meets the lake.\nBring your sunglasses. 🌊",
-      "address": ""
+      "address": "",
+      "shape": "landscape"
     },
     {
       "name": "McMaster University",
@@ -123,10 +126,11 @@
         "mac"
       ],
       "from": "Gowtham",
-      "video": null,
+      "video": "https://youtu.be/fPTfRGwvG4A",
       "text": "",
       "clue": "From waves to books, from sand to school,\nYour next destination played by a different rule.\nFind the place where minds get tested,\nAnd memories were made between lectures and lessons.",
-      "address": "McMaster University, 1280 Main St W, Hamilton, ON"
+      "address": "McMaster University, 1280 Main St W, Hamilton, ON",
+      "shape": "landscape"
     },
     {
       "name": "Cootes Paradise",
@@ -138,10 +142,11 @@
         "cootes"
       ],
       "from": "Hari",
-      "video": null,
+      "video": "https://youtu.be/_EdfBR5TpgU",
       "text": "",
       "clue": "You don't need a classroom for your next adventure.\nLeave the buildings behind.\nFind the paradise that hides behind the place you just visited.",
-      "address": ""
+      "address": "",
+      "shape": "landscape"
     },
     {
       "name": "Dundas Peak",
@@ -154,10 +159,11 @@
         "spencer gorge"
       ],
       "from": "Ananth",
-      "video": null,
+      "video": "https://youtu.be/rCYrBHYtm04",
       "text": "",
       "clue": "You've wandered through paradise.\nNow it's time to climb.\nYour next destination rewards those\nWho are willing to go a little higher.\nFind the peak.",
-      "address": "Dundas Peak, Dundas, ON"
+      "address": "Dundas Peak, Dundas, ON",
+      "shape": "landscape"
     },
     {
       "name": "Tiffany Falls",
@@ -233,10 +239,11 @@
         "finch"
       ],
       "from": "Nitu chechy",
-      "video": null,
+      "video": "https://youtu.be/yIolNhlvTuc",
       "text": "",
       "clue": "Your last stop had food, music and a little bit of flair.\nNow head somewhere where thousands of people pass through every day.\nYou don't need a car to get there.\nFind the station at the end of this clue.",
-      "address": "Finch Station, Toronto, ON"
+      "address": "Finch Station, Toronto, ON",
+      "shape": "landscape"
     },
     {
       "name": "Yonge & Finch",
@@ -281,10 +288,11 @@
         "wow"
       ],
       "from": "Guluna",
-      "video": null,
+      "video": "https://youtu.be/mMt5CVrDy44",
       "text": "",
       "clue": "Sweet was easy.\nNow we need something with a little more kick.\nYour next destination has wings,\nbut you're not looking for the kind that can fly.",
-      "address": "WOW! Wing House, 9587 Weston Rd, Woodbridge, ON"
+      "address": "WOW! Wing House, 9587 Weston Rd, Woodbridge, ON",
+      "shape": "landscape"
     },
     {
       "name": "Vaughan Mills",
