@@ -148,11 +148,11 @@ def main():
         t = title.strip().lower()
         n = clue_number(t)
         if n:
-            targets.setdefault(("clue", n), (vid, title))
+            targets[("clue", n)] = (vid, title)
         elif t.startswith("welcome"):
-            targets.setdefault(("welcome", 0), (vid, title))
+            targets[("welcome", 0)] = (vid, title)
         elif t.startswith("finale") or t.startswith("final"):
-            targets.setdefault(("finale", 0), (vid, title))
+            targets[("finale", 0)] = (vid, title)
         else:
             print(f"  skipped (title doesn't start with Clue N / Welcome / Finale): {title}")
 

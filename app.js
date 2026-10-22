@@ -58,7 +58,8 @@
       if (!y) return false;
       if (x === y) return true;
       if (y.length >= 4 && x.includes(y)) return true;
-      return lev(x, y) <= (y.length > 6 ? 2 : 1);
+      if (y.length < 6) return false;
+      return lev(x, y) <= (y.length > 9 ? 2 : 1);
     });
   }
 
@@ -158,6 +159,7 @@
   }
 
   function onPosError(err) {
+    if (err.code === 3 && lastPos) return;
     if (err.code === 1) {
       setStatus("Location is blocked. In Chrome: tap the icon left of the address, then Permissions → Location → Allow, and reload.");
     } else {
@@ -369,6 +371,7 @@
       resetGuess();
       save();
       notify(`${hunt.player} started the hunt!`, "He's on clue 1");
+      if ("geolocation" in navigator) navigator.geolocation.getCurrentPosition(() => {}, () => {}, { timeout: 15000 });
       render();
       window.scrollTo(0, 0);
     };
@@ -515,6 +518,9 @@
   }
 
   // ---------- start ----------
+  // Keeps the last copy of the site so a reload in a dead zone (Dundas Peak, Tiffany Falls) still works.
+  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+
   fetch("hunt.json", { cache: "no-store" })
     .then((r) => r.json())
     .then((data) => {
@@ -535,6 +541,7 @@
       }
       applyTheme();
       renderTestbar();
+      if (TEST) window.huntTest = { render }; // lets automated tests swap in fake GPS and redraw
       render();
       flushQueue();
     })

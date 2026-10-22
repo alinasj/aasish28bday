@@ -38,7 +38,8 @@
       "radius": 250,
       "answers": [
         "gage park",
-        "gage"
+        "gage",
+        "gage pk"
       ],
       "from": "Papa",
       "video": "https://youtu.be/7Fx9b4-Cue4",
@@ -55,7 +56,13 @@
       "answers": [
         "tim hortons field",
         "tim hortons",
-        "tim hortons stadium"
+        "tim hortons stadium",
+        "stadium",
+        "ticats",
+        "tiger cats",
+        "tigercats",
+        "ticats stadium",
+        "football stadium"
       ],
       "from": "Mummy",
       "video": "https://youtu.be/3kCt-XhANY4",
@@ -89,7 +96,14 @@
         "sam lawrence park",
         "mountain lookout",
         "lookout",
-        "hamilton mountain"
+        "hamilton mountain",
+        "mountain",
+        "escarpment",
+        "mountain brow",
+        "the brow",
+        "viewpoint",
+        "view point",
+        "scenic lookout"
       ],
       "from": "Alina",
       "video": "https://youtu.be/EGIBvCvopJw",
@@ -106,7 +120,10 @@
       "answers": [
         "burlington beach",
         "beach",
-        "hamilton beach"
+        "hamilton beach",
+        "beach strip",
+        "lake ontario",
+        "the lake"
       ],
       "from": "Hima",
       "video": "https://youtu.be/ZTwC-OMVVN0",
@@ -123,7 +140,10 @@
       "answers": [
         "mcmaster",
         "mcmaster university",
-        "mac"
+        "mac",
+        "university",
+        "uni",
+        "mcmaster uni"
       ],
       "from": "Gowtham",
       "video": "https://youtu.be/fPTfRGwvG4A",
@@ -139,7 +159,9 @@
       "radius": 900,
       "answers": [
         "cootes paradise",
-        "cootes"
+        "cootes",
+        "coots paradise",
+        "coots"
       ],
       "from": "Hari",
       "video": "https://youtu.be/_EdfBR5TpgU",
@@ -155,8 +177,9 @@
       "radius": 250,
       "answers": [
         "dundas peak",
-        "the peak",
-        "spencer gorge"
+        "peak",
+        "spencer gorge",
+        "dundas"
       ],
       "from": "Ananth",
       "video": "https://youtu.be/rCYrBHYtm04",
@@ -172,7 +195,10 @@
       "radius": 250,
       "answers": [
         "tiffany falls",
-        "tiffany"
+        "tiffany",
+        "waterfall",
+        "falls",
+        "the falls"
       ],
       "from": "Aileen",
       "video": null,
@@ -199,15 +225,18 @@
       "name": "FirstOntario Concert Hall",
       "lat": 43.25629,
       "lng": -79.87173,
-      "radius": 120,
+      "radius": 80,
       "answers": [
         "firstontario",
         "first ontario",
         "firstontario centre",
+        "first ontario centre",
         "firstontario concert hall",
         "concert hall",
         "td coliseum",
-        "coliseum"
+        "coliseum",
+        "arena",
+        "hamilton place"
       ],
       "from": "Akku chechy",
       "video": null,
@@ -236,7 +265,10 @@
       "radius": 150,
       "answers": [
         "finch station",
-        "finch"
+        "finch",
+        "finch subway",
+        "subway station",
+        "subway"
       ],
       "from": "Nitu chechy",
       "video": "https://youtu.be/yIolNhlvTuc",
@@ -253,7 +285,12 @@
       "answers": [
         "yonge and finch",
         "yonge finch",
-        "yonge & finch"
+        "yonge & finch",
+        "old neighbourhood",
+        "old neighborhood",
+        "my old neighbourhood",
+        "old hood",
+        "yonge"
       ],
       "from": "Vina",
       "video": null,
@@ -269,7 +306,10 @@
       "answers": [
         "nanthas",
         "nantha's",
-        "nantha"
+        "nantha",
+        "mango shake place",
+        "mango place",
+        "nanthas kitchen"
       ],
       "from": "Sherya",
       "video": null,
@@ -285,7 +325,10 @@
       "answers": [
         "wow wings",
         "wow wing house",
-        "wow"
+        "wow",
+        "wings",
+        "wing house",
+        "wing place"
       ],
       "from": "Guluna",
       "video": "https://youtu.be/mMt5CVrDy44",
@@ -301,7 +344,10 @@
       "radius": 400,
       "answers": [
         "vaughan mills",
-        "vaughan mills mall"
+        "vaughan mills mall",
+        "vaughan",
+        "mall",
+        "the mall"
       ],
       "from": "Anusha",
       "video": null,
@@ -317,7 +363,15 @@
       "answers": [
         "home",
         "932 king st e",
-        "932 king street east"
+        "932 king street east",
+        "where we started",
+        "start",
+        "starting point",
+        "back home",
+        "our place",
+        "our home",
+        "house",
+        "the start"
       ],
       "from": "Aileen",
       "video": null,
