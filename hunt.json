@@ -201,10 +201,11 @@
         "the falls"
       ],
       "from": "Aileen",
-      "video": null,
+      "video": "https://youtu.be/Vd4MCX8UYJA",
       "text": "",
       "clue": "You climbed to the top.\nNow follow the sound of falling water.\nYour next destination isn't something you can buy,\nbut something you can hear before you see.",
-      "address": "Tiffany Falls Conservation Area, Wilson St E, Ancaster"
+      "address": "Tiffany Falls Conservation Area, Wilson St E, Ancaster",
+      "shape": "portrait"
     },
     {
       "name": "Jackson Square",
@@ -239,10 +240,11 @@
         "hamilton place"
       ],
       "from": "Akku chechy",
-      "video": null,
+      "video": "https://youtu.be/RturCLqiRDs",
       "text": "",
       "clue": "From shopping to shouting.\nYour next stop is where thousands gather,\nwhere the lights go down,\nthe crowd gets loud,\nand something is always happening on the floor.",
-      "address": "1 Summers Ln, Hamilton"
+      "address": "1 Summers Ln, Hamilton",
+      "shape": "portrait"
     },
     {
       "name": "Tamasha",
@@ -253,10 +255,11 @@
         "tamasha"
       ],
       "from": "Safi chechy",
-      "video": null,
+      "video": "https://youtu.be/f0FJWB5rRoQ",
       "text": "",
       "clue": "Hamilton was only the beginning.\nNow we're going somewhere with a few more skyscrapers.\nYour next clues are connected to a different chapter of your story.\nFollow the road east.\nYour first stop is somewhere you can eat.",
-      "address": "1835 Yonge St #101, Toronto"
+      "address": "1835 Yonge St #101, Toronto",
+      "shape": "landscape"
     },
     {
       "name": "Finch Station",
@@ -293,10 +296,11 @@
         "yonge"
       ],
       "from": "Vina",
-      "video": null,
+      "video": "https://youtu.be/geXRb-fq0oE",
       "text": "",
       "clue": "You've found the station.\nBut stations aren't usually where memories begin.\nWalk a little beyond it.\nFind the intersection that takes you closer\nto the neighbourhood that once felt like home.",
-      "address": "Yonge St & Finch Ave, North York"
+      "address": "Yonge St & Finch Ave, North York",
+      "shape": "portrait"
     },
     {
       "name": "Nantha's",
@@ -350,10 +354,11 @@
         "the mall"
       ],
       "from": "Anusha",
-      "video": null,
+      "video": "https://youtu.be/8WhYD8E4SzE",
       "text": "",
       "clue": "One final destination before we head home.\nYou won't find just one store here.\nIn fact, you'll find hundreds.\nFind the giant shopping destination in Vaughan.",
-      "address": "1 Bass Pro Mills Dr, Vaughan"
+      "address": "1 Bass Pro Mills Dr, Vaughan",
+      "shape": "landscape"
     },
     {
       "name": "Home",
@@ -374,10 +379,11 @@
         "the start"
       ],
       "from": "Aileen",
-      "video": null,
+      "video": "https://youtu.be/Rw2-7SgH-Pg",
       "text": "",
       "clue": "You've chased clues through Hamilton.\nYou've revisited old places.\nYou've eaten, explored, climbed, walked and probably complained about driving.\nBut every adventure needs somewhere to end.\nYou've spent today visiting places that tell pieces of your story.\nNow there's only one place left to find.\nGo back to where we started.",
-      "address": "Unit 19, 932 King St E, Hamilton"
+      "address": "Unit 19, 932 King St E, Hamilton",
+      "shape": "portrait"
     }
   ]
 }
